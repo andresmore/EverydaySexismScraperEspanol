@@ -8,7 +8,7 @@ Todos los créditos de los testimonios obtenidos con este scraper deben ser atri
 
 ## Uso del scraper
 
-El scraper está escrito en Python y utiliza la librería [Scrapy](https://scrapy.org/). Para ejecutarlo, primero debes instalar Scrapy. Puedes hacerlo con el siguiente comando:
+El scraper está escrito en Python y utiliza la librería [Scrapy](https://scrapy.org/). Para ejecutarlo una vez Python esté instalado, primero debe instalar Scrapy. Puede hacerlo con el siguiente comando:
 
 ```bash
 pip install scrapy
@@ -18,6 +18,6 @@ Una vez instalado Scrapy, puede ejecutar el scraper con el siguiente comando:
 
 ```bash
 cd ed_sexism
-scrapy crawl sexism -o sexism.json
+scrapy crawl sexism_mex_arg_es -o output.json
 ```
-    
+En el repositorio, el archivo output.json contiene la salida ejecutada el dia 08/03/2024    
